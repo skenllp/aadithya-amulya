@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Aadithya &amp; Amulya | Engagement Invitation</title>
+<meta name="description" content="Engagement Invitation of Aadithya &amp; Amulya — Saturday, 28 November 2026, 10:30 AM, The White House, The Capital Hotel, Bangalore.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aadithya-amulya.vercel.app/">
+<meta property="og:title" content="Aadithya &amp; Amulya | Engagement Invitation">
+<meta property="og:description" content="Join us for the Engagement Ceremony of Aadithya &amp; Amulya — Saturday, 28 November 2026, 10:30 AM, The Capital Hotel, Bangalore.">
+<meta property="og:image" content="https://aadithya-amulya.vercel.app/assets/og-image.jpg">
+<meta property="og:image:secure_url" content="https://aadithya-amulya.vercel.app/assets/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aadithya and Amulya — Engagement Invitation, 28 November 2026">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aadithya &amp; Amulya | Engagement Invitation">
+<meta name="twitter:description" content="Engagement Ceremony — Saturday, 28 November 2026, 10:30 AM, The Capital Hotel, Bangalore.">
+<meta name="twitter:image" content="https://aadithya-amulya.vercel.app/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="Aadithya and Amulya — Engagement Invitation">
+<link rel="canonical" href="https://aadithya-amulya.vercel.app/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23F7F1E4' stroke='%23B8873B' stroke-width='4'/%3E%3Ctext x='50' y='62' font-family='Georgia,serif' font-size='40' fill='%231E3B2C' text-anchor='middle'%3EA%26A%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   AADITHYA & AMULYA — ENGAGEMENT INVITATION
+   Design tokens
+   ============================================================ */
+:root{
+  --ivory: #F8F2E4;
+  --ivory-deep: #EFE3C8;
+  --ivory-card: #FBF6EA;
+  --paper-shadow: rgba(60,42,20,0.18);
+  --gold: #B0813C;
+  --gold-bright: #D3A75B;
+  --gold-line: rgba(176,129,60,0.55);
+  --green: #1E3B2C;
+  --green-deep: #12241A;
+  --brown: #6B4B32;
+  --ink: #2B2013;
+  --maroon: #7C2E2E;
+  --pastel1:#E7D9C7; --pastel2:#CFE0D2; --pastel3:#E3C9C9; --pastel4:#D8CFE3; --pastel5:#E9DDB6;
+
+  --display: 'Cormorant Garamond', 'Playfair Display', serif;
+  --special: 'Playfair Display', 'Cormorant Garamond', serif;
+  --body: 'EB Garamond', Georgia, serif;
+  --label: 'Cinzel', serif;
+
+  --dur-s: .5s; --dur-m: .9s; --dur-l: 1.6s;
+  --ease: cubic-bezier(.22,.7,.2,1);
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+
+body{
+  margin:0;
+  font-family: var(--body);
+  background: var(--ivory);
+  color: var(--ink);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+body.lock{ overflow:hidden; height:100vh; }
+
+img{max-width:100%; display:block;}
+button{font-family:inherit; cursor:pointer;}
+a{color:inherit;}
+
+h1,h2,h3{ font-family: var(--display); font-weight:500; margin:0; color:var(--green);}
+
+.eyebrow{
+  font-family: var(--label);
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  font-size:.68rem;
+  color:var(--gold);
+}
+
+.divider{
+  width:64px; height:1px; background:var(--gold-line); margin:18px auto; position:relative;
+}
+.divider::before{
+  content:'❖'; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  background:var(--ivory); color:var(--gold); font-size:.7rem; padding:0 8px;
+}
+
+/* ---------- reveal-on-scroll ---------- */
+[data-reveal]{ opacity:0; transform:translateY(36px); transition:opacity 1.1s var(--ease), transform 1.1s var(--ease); }
+[data-reveal].in{ opacity:1; transform:translateY(0); }
+[data-reveal="fade"]{ transform:none; }
+[data-reveal="left"]{ transform:translateX(-48px); }
+[data-reveal="left"].in{ transform:translateX(0); }
+[data-reveal="right"]{ transform:translateX(48px); }
+[data-reveal="right"].in{ transform:translateX(0); }
+[data-reveal="scale"]{ transform:scale(.92); }
+[data-reveal="scale"].in{ transform:scale(1); }
+@media (prefers-reduced-motion: reduce){
+  [data-reveal]{ opacity:1 !important; transform:none !important; transition:none !important; }
+}
+
+/* ============================================================
+   FIXED GOLD FRAME (signature element)
+   ============================================================ */
+.frame{
+  position:fixed; inset:0; pointer-events:none; z-index:40;
+  transition:opacity 1s ease;
+}
+.frame::before{
+  content:''; position:absolute; inset:10px;
+  border:1px solid var(--gold-line);
+}
+.frame::after{
+  content:''; position:absolute; inset:14px;
+  border:1px solid rgba(176,129,60,0.25);
+}
+.frame .corner{ position:absolute; width:42px; height:42px; opacity:.85; }
+.frame .corner.tl{ top:8px; left:8px; }
+.frame .corner.tr{ top:8px; right:8px; transform:scaleX(-1); }
+.frame .corner.bl{ bottom:8px; left:8px; transform:scaleY(-1); }
+.frame .corner.br{ bottom:8px; right:8px; transform:scale(-1,-1); }
+body.opening .frame{ opacity:0; }
+@media (max-width:720px){
+  .frame::before{ inset:6px; }
+  .frame::after{ display:none; }
+  .frame .corner{ width:28px; height:28px; }
+}
+
+/* ============================================================
+   OPENING — physical invitation video
+   ============================================================ */
+#opening{
+  position:fixed; inset:0; z-index:100;
+  background: radial-gradient(120% 120% at 50% 30%, #f3e3c3 0%, #e6c79a 60%, #d4a974 100%);
+  display:flex; align-items:center; justify-content:center;
+  transition: opacity 1.4s var(--ease), transform 1.4s var(--ease);
+}
+#opening.hide{ opacity:0; transform:scale(1.06); pointer-events:none; }
+#opening video{
+  width:min(100vw, calc(100vh * 9 / 16)); height:min(100vh, calc(100vw * 16 / 9));
+  width:min(100vw, calc(100svh * 9 / 16)); height:min(100svh, calc(100vw * 16 / 9));
+  object-fit:contain; background:#EBCB9F; box-shadow:0 40px 90px rgba(30,20,5,.4);
+}
+#opening .op-hint{
+  position:absolute; left:50%; bottom:calc(11% + env(safe-area-inset-bottom)); transform:translateX(-50%); z-index:3;
+  background:rgba(30,59,44,.92); color:#FBF3DF; border:1px solid var(--gold-bright); padding:15px 34px;
+  font-family:var(--label); font-size:.72rem; letter-spacing:.3em; text-transform:uppercase; white-space:nowrap;
+  box-shadow:0 10px 30px rgba(30,20,5,.35); animation:hintPulse 2.2s ease-in-out infinite; transition:opacity .5s ease;
+}
+#opening .op-hint span{ margin-left:8px; color:var(--gold-bright); }
+#opening .op-hint.gone{ opacity:0; pointer-events:none; animation:none; }
+@keyframes hintPulse{ 50%{ transform:translateX(-50%) scale(1.05);} }
+#skip-open{
+  position:absolute; top:22px; right:22px; z-index:5;
+  background:rgba(30,59,44,.55); border:1px solid rgba(255,244,220,.6);
+  color:#fbf3df; font-family:var(--label); font-size:.62rem; letter-spacing:.2em;
+  text-transform:uppercase; padding:9px 16px; border-radius:2px; backdrop-filter:blur(4px);
+}
+#opening .op-tap{
+  position:absolute; inset:0; background:transparent; border:none;
+}
+
+/* ============================================================
+   SECTION GENERIC
+   ============================================================ */
+section{ position:relative; }
+.bleed{
+  min-height:100vh; display:flex; align-items:center; justify-content:center;
+  background-size:cover; background-position:center; position:relative; overflow:hidden;
+}
+.wrap{ max-width:1180px; margin:0 auto; padding:0 26px; width:100%; }
+.card-inner{ position:relative; z-index:2; text-align:center; color:var(--ivory); }
+
+.pill-btn{
+  display:inline-flex; align-items:center; gap:10px;
+  padding:14px 34px; border:1px solid var(--gold); background:transparent;
+  color:var(--green); font-family:var(--label); font-size:.66rem; letter-spacing:.22em; text-transform:uppercase;
+  text-decoration:none; transition:background .4s ease, color .4s ease; border-radius:1px;
+}
+.pill-btn:hover{ background:var(--green); color:var(--ivory-deep); border-color:var(--green); }
+.pill-btn.on-dark{ color:var(--ivory-deep); border-color:rgba(248,242,228,.7); }
+.pill-btn.on-dark:hover{ background:var(--ivory-deep); color:var(--green-deep); }
+
+/* ============================================================
+   HERO
+   ============================================================ */
+#home{ background:#000; }
+#home .bg{
+  position:absolute; inset:0; background-image:url('assets/couple-landscape.jpg'); background-size:cover; background-position:78% 70%;
+  transform:scale(1.08); will-change:transform;
+}
+#home .vignette{
+  position:absolute; inset:0; pointer-events:none;
+  background:
+    linear-gradient(90deg, rgba(18,36,26,.72) 0%, rgba(18,36,26,.45) 32%, rgba(18,36,26,0) 58%),
+    linear-gradient(180deg, rgba(20,14,5,.1), rgba(20,14,5,.04) 48%, rgba(20,14,5,.35) 100%);
+}
+@media(min-width:761px){ #home{ justify-content:flex-start; } #home .wrap.card-inner{ margin:0; max-width:760px; text-align:left; padding-left:clamp(40px,8vw,120px); } #home .monogram{ margin-left:0; } #home .datetime{ justify-content:flex-start !important; } #home .datetime span:first-child{ padding-left:0; } }
+#home .card-inner{ padding-top:70px; }
+#home .monogram{ width:66px; height:66px; margin:0 auto 22px; opacity:.95; filter:drop-shadow(0 2px 10px rgba(0,0,0,.5)); }
+#home .eyebrow{ color:#E2B969; text-shadow:0 2px 5px rgba(20,12,3,.8), 0 2px 14px rgba(0,0,0,.6); }
+#home h1{
+  color:#FBF6E9; font-size:clamp(2.5rem, 6.4vw, 4.6rem); line-height:1.08; margin:16px 0 10px;
+  text-shadow:0 2px 3px rgba(20,12,3,.85), 0 4px 12px rgba(0,0,0,.7), 0 10px 40px rgba(0,0,0,.55);
+}
+#home h1 em{ font-style:italic; display:block; font-size:.5em; color:#E2B969; margin:10px 0; letter-spacing:.05em; text-shadow:0 2px 4px rgba(20,12,3,.8); }
+#home .rec-label{ font-family:var(--label); letter-spacing:.3em; text-transform:uppercase; font-size:.78rem; color:#FFF3D5; margin:18px 0 22px; text-shadow:0 2px 4px rgba(20,12,3,.85), 0 2px 12px rgba(0,0,0,.65); }
+#home .datetime{ display:flex; gap:26px; justify-content:center; flex-wrap:wrap; color:#FFF3D5; font-family:var(--body); font-size:1rem; letter-spacing:.03em; text-shadow:0 2px 4px rgba(20,12,3,.85), 0 2px 12px rgba(0,0,0,.6); }
+#home .datetime span{ position:relative; padding:0 20px; }
+#home .datetime span:not(:last-child)::after{ content:'•'; position:absolute; right:-4px; color:var(--gold); }
+@media(max-width:760px){
+  #home{ align-items:flex-start; }
+  #home .bg{ background-image:url('assets/couple-portrait.jpg'); background-position:86% 100%; }
+  #home .vignette{ background:linear-gradient(180deg, rgba(18,36,26,.78) 0%, rgba(18,36,26,.55) 30%, rgba(18,36,26,0) 52%), linear-gradient(0deg, rgba(18,36,26,.55), rgba(18,36,26,0) 18%); }
+  #home .card-inner{ padding-top:calc(28px + env(safe-area-inset-top)); }
+  #home .monogram{ width:44px; height:44px; margin-bottom:10px; }
+  #home h1{ font-size:clamp(2.3rem,10vw,3rem); margin:8px 0 4px; }
+  #home h1 em{ display:inline; margin:0 .2em; }
+  #home .rec-label{ margin:10px 0 10px; font-size:.68rem; }
+  #home .datetime{ gap:0 !important; font-size:.92rem; flex-direction:column; align-items:center; }
+  #home .datetime span::after{ display:none; }
+  #home .datetime span{ padding:2px 0; }
+  .scroll-cue{ display:none !important; }
+}
+.scroll-cue{
+  position:absolute; bottom:38px; left:50%; transform:translateX(-50%);
+  display:flex; flex-direction:column; align-items:center; gap:8px; color:#FFF8E8; z-index:3;
+  font-family:var(--label); font-size:.66rem; letter-spacing:.3em; text-transform:uppercase;
+  text-shadow:0 2px 8px rgba(30,20,5,.8);
+}
+.scroll-cue .line{ width:2px; height:38px; background:linear-gradient(180deg, #FFF8E8, rgba(255,248,232,.05)); box-shadow:0 0 8px rgba(30,20,5,.55); animation:cueMove 2.2s ease-in-out infinite; }
+@keyframes cueMove{ 0%{ transform:scaleY(.3); transform-origin:top;} 50%{transform:scaleY(1); transform-origin:top;} 100%{transform:scaleY(.3); transform-origin:bottom;} }
+
+/* ============================================================
+   INVITATION CARD SECTION
+   ============================================================ */
+#invitation{ background-image:url('assets/bg3.jpg'); background-size:cover; background-position:center; padding:150px 0; position:relative; }
+#invitation::before{ content:''; position:absolute; inset:0; background:rgba(248,242,228,.62); }
+.inv-card{
+  position:relative; z-index:2; max-width:640px; margin:0 auto; background:var(--ivory-card);
+  border:1px solid var(--gold-line); padding:70px 48px; text-align:center;
+  box-shadow:0 40px 90px rgba(60,42,20,.18);
+}
+.inv-card::before{ content:''; position:absolute; inset:14px; border:1px solid rgba(176,129,60,.35); pointer-events:none; }
+.inv-card .om{ font-family:var(--body); color:var(--maroon); letter-spacing:.06em; font-size:1.05rem; margin-bottom:18px; }
+.inv-card .rec-title{ font-family:var(--label); letter-spacing:.3em; text-transform:uppercase; color:var(--gold); font-size:.85rem; margin-bottom:22px; }
+.inv-card .host{ font-family:var(--special); font-style:italic; font-size:1.3rem; color:var(--green); }
+.inv-card .host-addr{ font-family:var(--body); color:var(--brown); font-size:.92rem; margin-top:6px; letter-spacing:.02em; }
+.inv-card .invite-line{ font-size:1.08rem; line-height:1.7; color:var(--ink); margin:26px auto; max-width:420px; }
+.inv-card .couple-names{ font-family:var(--display); font-size:clamp(1.8rem,4vw,2.6rem); color:var(--green); line-height:1.35; }
+.inv-card .amp{ display:block; font-family:var(--special); font-style:italic; color:var(--gold); font-size:.7em; margin:4px 0; }
+.inv-card .fam-line{ font-size:1rem; }
+
+/* ============================================================
+   DATE EXPERIENCE
+   ============================================================ */
+#date{ background:var(--green); padding:140px 0; text-align:center; color:var(--ivory-deep); position:relative; overflow:hidden; }
+#date::after{ content:''; position:absolute; inset:0; background:radial-gradient(60% 50% at 50% 40%, rgba(211,167,91,.12), transparent 70%); pointer-events:none; }
+.date-num{
+  font-family:var(--display); font-weight:600; font-size:clamp(6rem,20vw,12rem); line-height:.85; color:var(--ivory-card);
+  text-shadow: 0 1px 0 rgba(255,255,255,.25), 0 3px 0 rgba(0,0,0,.12), 0 14px 40px rgba(0,0,0,.45);
+  position:relative; z-index:2;
+}
+.date-month{ font-family:var(--label); letter-spacing:.5em; font-size:clamp(1rem,2.4vw,1.5rem); color:var(--gold-bright); margin-top:6px; }
+.date-year{ font-family:var(--body); font-size:1.1rem; color:#D8CFB4; margin-top:6px; letter-spacing:.08em; }
+.date-sub{ margin-top:34px; font-family:var(--special); font-style:italic; font-size:1.5rem; color:var(--ivory-card); }
+.cd-wrap{ margin:50px auto 0; max-width:520px; position:relative; z-index:2; }
+.cd-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+.cd-cell{ border:1px solid rgba(211,167,91,.45); padding:16px 4px 12px; background:rgba(248,242,228,.05); }
+.cd-cell b{ display:block; font-family:var(--display); font-weight:600; font-size:clamp(1.8rem,6vw,2.6rem); line-height:1; color:var(--ivory-card); font-variant-numeric:tabular-nums; }
+.cd-cell span{ display:block; margin-top:8px; font-family:var(--label); font-size:.56rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold-bright); }
+.cd-done{ display:none; font-family:var(--special); font-style:italic; font-size:1.35rem; color:var(--ivory-card); line-height:1.5; }
+.cd-wrap.done .cd-grid{ display:none; } .cd-wrap.done .cd-done{ display:block; }
+.date-mal{ margin-top:10px; font-family:var(--body); color:var(--gold-bright); font-size:.95rem; letter-spacing:.05em; }
+
+/* ============================================================
+   RECEPTION
+   ============================================================ */
+#reception{ background-image:url('assets/bg3.jpg'); background-size:cover; background-position:center; padding:150px 0; position:relative; }
+#reception::before{ content:''; position:absolute; inset:0; background:rgba(248,242,228,.68); }
+.rec-box{ position:relative; z-index:2; text-align:center; max-width:560px; margin:0 auto; }
+.rec-time{ font-family:var(--display); font-size:clamp(2rem,4.4vw,3rem); color:var(--green); }
+.rec-venue-name{ font-family:var(--special); font-style:italic; font-size:1.6rem; color:var(--maroon); margin-top:22px; }
+.rec-venue-addr{ font-family:var(--body); color:var(--brown); margin-top:6px; letter-spacing:.03em; }
+.rec-box .btn-row{ margin-top:36px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+.dress-block{ margin-top:56px; padding-top:44px; border-top:1px solid var(--gold-line); }
+.swatches{ display:flex; gap:14px; justify-content:center; margin:26px 0 8px; }
+.swatches span{ width:30px; height:30px; border-radius:50%; display:inline-block; border:1px solid var(--gold-line); }
+.dress-block .code{ font-family:var(--special); font-style:italic; font-size:1.4rem; color:var(--green); margin-top:6px; }
+
+/* ============================================================
+   GALLERY
+   ============================================================ */
+#gallery{ background:var(--green-deep); padding:140px 0 160px; }
+#gallery .head{ text-align:center; color:var(--ivory-deep); margin-bottom:70px; }
+#gallery .head h2{ color:var(--ivory-card); font-size:clamp(2rem,4vw,2.8rem); margin-top:12px; }
+.gal-grid{ position:relative; max-width:980px; margin:0 auto; min-height:640px; }
+.gal-item{ position:absolute; overflow:hidden; box-shadow:0 30px 70px rgba(0,0,0,.5); border:8px solid var(--ivory-card); cursor:pointer; }
+.gal-item img{ width:100%; height:100%; object-fit:cover; transition:transform .8s var(--ease); }
+.gal-item:hover img{ transform:scale(1.06); }
+.gal-1{ width:58%; aspect-ratio:4/3; top:0; left:0; z-index:2; transform:rotate(-1deg); }
+.gal-2{ width:36%; aspect-ratio:3/4; top:90px; right:0; z-index:3; transform:rotate(2deg); }
+.gal-item{ transition:transform .6s var(--ease), box-shadow .6s ease; padding:0; display:block; background:var(--ivory-card); }
+.gal-item:hover{ transform:rotate(0deg) translateY(-6px); box-shadow:0 40px 90px rgba(0,0,0,.6); }
+.gal-1 img{ object-position:72% 60%; }
+@media(max-width:820px){
+  .gal-grid{ min-height:0; display:flex; flex-direction:column; gap:26px; }
+  .gal-2{ width:80% !important; }
+  .gal-item{ position:relative; width:100% !important; top:auto; left:auto; right:auto; bottom:auto; transform:none !important; }
+}
+
+/* lightbox */
+#lightbox{ position:fixed; inset:0; z-index:120; background:rgba(10,14,8,.95); display:none; align-items:center; justify-content:center; }
+#lightbox.open{ display:flex; }
+#lightbox img{ max-width:88vw; max-height:82vh; width:auto; height:auto; box-shadow:0 30px 90px rgba(0,0,0,.6); }
+#lightbox .lb-close, #lightbox .lb-nav{
+  position:absolute; background:transparent; border:1px solid rgba(248,242,228,.5); color:var(--ivory-card);
+  width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.1rem;
+}
+#lightbox .lb-close{ top:24px; right:24px; }
+#lightbox .lb-prev{ left:16px; top:50%; transform:translateY(-50%); }
+#lightbox .lb-next{ right:16px; top:50%; transform:translateY(-50%); }
+
+/* ============================================================
+   VENUE
+   ============================================================ */
+#venue{ background:var(--ivory); padding:130px 0; text-align:center; }
+#venue .pin{ width:36px; height:36px; margin:0 auto 18px; color:var(--gold); }
+#venue h2{ font-size:clamp(2rem,4vw,2.8rem); }
+#venue .addr{ font-family:var(--body); color:var(--brown); margin-top:10px; font-size:1.05rem; }
+#venue .btn-row{ margin-top:34px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+#venue .map-frame{ margin-top:56px; max-width:760px; margin-left:auto; margin-right:auto; border:1px solid var(--gold-line); }
+#venue .vhotel{ font-family:var(--label); letter-spacing:.24em; text-transform:uppercase; font-size:.78rem; color:var(--gold); margin-top:10px; }
+#venue iframe{ width:100%; height:340px; border:0; display:block; filter:sepia(.15) saturate(1.1); }
+
+/* ============================================================
+   RSVP
+   ============================================================ */
+#rsvp{ background-image:url('assets/bg3.jpg'); background-size:cover; background-position:center 30%; padding:150px 0; position:relative; }
+#rsvp::before{ content:''; position:absolute; inset:0; background:rgba(18,30,20,.72); }
+.rsvp-box{ position:relative; z-index:2; max-width:560px; margin:0 auto; text-align:center; color:var(--ivory-deep); }
+.rsvp-box h2{ color:var(--ivory-card); font-size:clamp(1.8rem,4vw,2.6rem); margin:14px 0 8px; line-height:1.35; }
+.rsvp-box .eyebrow{ color:var(--gold-bright); }
+form.rsvp-form{ margin-top:44px; text-align:left; background:rgba(248,242,228,.06); border:1px solid rgba(211,167,91,.35); padding:38px 30px; backdrop-filter:blur(6px); }
+.field{ margin-bottom:22px; }
+.field label{ display:block; font-family:var(--label); font-size:.62rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold-bright); margin-bottom:8px; }
+.field input, .field textarea{
+  width:100%; background:transparent; border:none; border-bottom:1px solid rgba(248,242,228,.4);
+  color:var(--ivory-card); font-family:var(--body); font-size:1rem; padding:8px 2px; outline:none;
+}
+.field input::placeholder, .field textarea::placeholder{ color:rgba(248,242,228,.4); }
+.field textarea{ resize:vertical; min-height:80px; }
+.attend-row{ display:flex; gap:14px; margin-top:30px; flex-wrap:wrap; }
+.attend-btn{
+  flex:1; min-width:180px; padding:15px 10px; text-align:center; border:1px solid var(--gold);
+  background:transparent; color:var(--ivory-card); font-family:var(--label); font-size:.65rem;
+  letter-spacing:.18em; text-transform:uppercase; transition:.35s ease;
+}
+.attend-btn.selected, .attend-btn:hover{ background:var(--gold); color:var(--green-deep); }
+#rsvp-status{ margin-top:26px; text-align:center; font-family:var(--special); font-style:italic; font-size:1.1rem; line-height:1.6; color:var(--ivory-card); }
+#rsvp-status.err{ color:#F2B8A8; } #rsvp-status .pill-btn{ margin-top:14px; font-style:normal; }
+.attend-btn[aria-pressed=true]{ background:var(--gold); color:var(--green-deep); }
+.rsvp-thanks{ display:none; text-align:center; padding:40px 20px; }
+.rsvp-thanks.show{ display:block; }
+.rsvp-thanks .tick{ width:46px; height:46px; margin:0 auto 16px; color:var(--gold-bright); }
+
+/* ============================================================
+   CLOSING
+   ============================================================ */
+#closing{ background-image:url('assets/bg3.jpg'); background-size:cover; background-position:center; padding:160px 0 120px; position:relative; text-align:center; }
+#closing::before{ content:''; position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,14,.55), rgba(10,16,10,.82)); }
+#closing .c-inner{ position:relative; z-index:2; color:var(--ivory-deep); }
+.diya{ width:40px; height:56px; margin:0 auto 26px; position:relative; }
+.diya .flame{
+  position:absolute; left:50%; top:0; width:10px; height:20px; transform:translateX(-50%);
+  background:radial-gradient(circle at 50% 30%, #FFEFC0, var(--gold-bright) 55%, transparent 80%);
+  border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+  animation:flicker 2.4s ease-in-out infinite;
+  filter:blur(.3px);
+}
+@keyframes flicker{
+  0%,100%{ opacity:1; transform:translateX(-50%) scale(1) rotate(0deg); }
+  25%{ opacity:.85; transform:translateX(-52%) scale(.96,1.04) rotate(-2deg); }
+  50%{ opacity:1; transform:translateX(-48%) scale(1.05,.97) rotate(1deg); }
+  75%{ opacity:.9; transform:translateX(-51%) scale(.98,1.02) rotate(-1deg); }
+}
+#closing .compliments{ font-family:var(--label); letter-spacing:.28em; text-transform:uppercase; color:var(--gold-bright); font-size:.8rem; }
+#closing .yadu{ font-family:var(--special); font-style:italic; font-size:1.5rem; color:var(--ivory-card); margin-top:12px; }
+#closing .closing-line{ margin-top:34px; font-size:1.1rem; line-height:1.8; color:#DCD3BE; max-width:420px; margin-left:auto; margin-right:auto; }
+#closing .final-names{ margin-top:34px; font-family:var(--display); font-size:clamp(1.8rem,4vw,2.5rem); color:var(--ivory-card); }
+#closing .final-names small{ display:block; font-family:var(--label); letter-spacing:.2em; font-size:.6rem; color:var(--gold-bright); margin-top:10px; }
+
+footer.site-foot{ background:var(--green-deep); text-align:center; padding:28px 20px calc(28px + 56px); color:rgba(248,242,228,.45); font-family:var(--label); font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; }
+
+/* sound toggle */
+#sound-toggle{
+  position:fixed; left:22px; bottom:22px; z-index:70;
+  width:48px; height:48px; border-radius:50%; background:rgba(30,59,44,.9); color:var(--ivory-deep);
+  border:1px solid var(--gold-line); display:flex; align-items:center; justify-content:center;
+  opacity:0; transition:opacity 1s ease .5s;
+}
+body.site-ready #sound-toggle{ opacity:.92; }
+#sound-toggle svg{ width:20px; height:20px; }
+
+.hidden-audio-note{ display:none; }
+</style>
+</head>
+<body class="opening">
+
+<!-- ===================== FIXED GOLD FRAME ===================== -->
+<div class="frame" aria-hidden="true">
+  <svg class="corner tl" viewBox="0 0 60 60"><path d="M2 40 Q2 2 40 2" fill="none" stroke="#B0813C" stroke-width="1.2"/><path d="M2 26 Q2 2 26 2" fill="none" stroke="#B0813C" stroke-width="1"/><circle cx="2" cy="2" r="2.4" fill="#B0813C"/></svg>
+  <svg class="corner tr" viewBox="0 0 60 60"><path d="M2 40 Q2 2 40 2" fill="none" stroke="#B0813C" stroke-width="1.2"/><path d="M2 26 Q2 2 26 2" fill="none" stroke="#B0813C" stroke-width="1"/><circle cx="2" cy="2" r="2.4" fill="#B0813C"/></svg>
+  <svg class="corner bl" viewBox="0 0 60 60"><path d="M2 40 Q2 2 40 2" fill="none" stroke="#B0813C" stroke-width="1.2"/><path d="M2 26 Q2 2 26 2" fill="none" stroke="#B0813C" stroke-width="1"/><circle cx="2" cy="2" r="2.4" fill="#B0813C"/></svg>
+  <svg class="corner br" viewBox="0 0 60 60"><path d="M2 40 Q2 2 40 2" fill="none" stroke="#B0813C" stroke-width="1.2"/><path d="M2 26 Q2 2 26 2" fill="none" stroke="#B0813C" stroke-width="1"/><circle cx="2" cy="2" r="2.4" fill="#B0813C"/></svg>
+</div>
+
+<!-- ===================== OPENING VIDEO ===================== -->
+<div id="opening">
+  <video id="op-video" src="assets/opening.mp4" poster="assets/opening-poster.jpg" width="720" height="1280" muted playsinline webkit-playsinline preload="auto" aria-label="Engagement invitation opening"></video>
+  <button class="op-tap" id="op-tap" aria-label="Open invitation"></button>
+  <button id="skip-open">Skip ↦</button>
+  <div class="op-hint" id="op-hint">Open Invitation<span>✦</span></div>
+</div>
+
+<button id="sound-toggle" aria-label="Toggle music" title="Toggle background music">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 9v6h4l5 4V5L8 9H4z" stroke-linejoin="round"/><path id="sound-x" d="M17 9l4 6M21 9l-4 6" stroke-linecap="round"/></svg>
+</button>
+<audio id="bgm" loop preload="none" class="hidden-audio-note" src="assets/neelashalabam.mp3"></audio>
+
+<!-- ===================== HERO ===================== -->
+<section id="home" class="bleed">
+  <div class="bg" id="hero-bg" role="img" aria-label="Aadithya and Amulya together on a sunlit beach"></div>
+  <div class="vignette"></div>
+  <div class="wrap card-inner">
+    <svg class="monogram" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="none" stroke="#D3A75B" stroke-width="1.4"/><circle cx="50" cy="50" r="41" fill="none" stroke="#D3A75B" stroke-width="0.8"/><text x="50" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="30" fill="#FBF6E9" text-anchor="middle">A&amp;A</text></svg>
+    <p class="eyebrow">Sri Lakshmi Venkatesa Prasanna</p>
+    <h1>Aadithya<em>&amp;</em>Amulya</h1>
+    <p class="rec-label">Engagement Ceremony</p>
+    <p style="font-family:var(--special);font-style:italic;color:#FFF3D5;margin:0 0 18px;font-size:1.05rem;text-shadow:0 2px 8px rgba(0,0,0,.7)">Together, a beautiful new chapter begins</p>
+    <div class="datetime">
+      <span>Saturday, 28 November 2026</span>
+      <span>10:30 AM</span>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- ===================== INVITATION DETAILS (incl. family) ===================== -->
+<section id="invitation">
+  <div class="wrap">
+    <div class="inv-card" data-reveal="scale">
+      <p class="om">Sri Lakshmi Venkatesa Prasanna</p>
+      <div class="divider"></div>
+      <p class="host">Uma &amp; Vidyasagar<br>Madhavi &amp; Arun Ballakur</p>
+      <p class="invite-line">Cordially invite you to the<br>Engagement Ceremony of</p>
+      <p class="couple-names">Aadithya<span class="amp">&amp;</span>Amulya</p>
+      <div class="divider"></div>
+      <p class="invite-line" style="margin:0">Saturday, 28 November 2026<br>10:30 AM</p>
+      <p class="host-addr" style="margin-top:14px">The White House<br>The Capital Hotel, Bangalore</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DATE ===================== -->
+<section id="date">
+  <div class="wrap" data-reveal="scale">
+    <div class="date-num">28</div>
+    <div class="date-month">November</div>
+    <div class="date-year">2026</div>
+    <div class="date-sub">Saturday</div>
+    <div class="date-mal">10:30 AM</div>
+    <div class="cd-wrap" id="countdown">
+      <div class="cd-grid">
+        <div class="cd-cell"><b id="cd-d">--</b><span>Days</span></div>
+        <div class="cd-cell"><b id="cd-h">--</b><span>Hours</span></div>
+        <div class="cd-cell"><b id="cd-m">--</b><span>Minutes</span></div>
+        <div class="cd-cell"><b id="cd-s">--</b><span>Seconds</span></div>
+      </div>
+      <p class="cd-done" id="cd-done"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RECEPTION (incl. dress code) ===================== -->
+<section id="reception">
+  <div class="wrap rec-box" data-reveal>
+    <p class="eyebrow">Engagement Ceremony</p>
+    <p class="rec-time">10:30 AM</p>
+    <p class="rec-venue-name">The White House</p>
+    <p class="rec-venue-addr">The Capital Hotel, Bangalore</p>
+    <div class="btn-row">
+      <a class="pill-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=The+Capital+Hotel%2C+3+Raj+Bhavan+Road%2C+Bengaluru+560001">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Our Moments</p>
+      <h2>A Few Frames of Us</h2>
+    </div>
+    <div class="gal-grid" data-reveal="scale">
+      <button type="button" class="gal-item gal-1" data-full="assets/couple-landscape.jpg" aria-label="Open photo"><img src="assets/couple-landscape.jpg" width="1600" height="1200" loading="lazy" alt="Aadithya and Amulya smiling together by the ocean"></button>
+      <button type="button" class="gal-item gal-2" data-full="assets/couple-portrait.jpg" aria-label="Open second photo"><img src="assets/couple-portrait.jpg" width="1200" height="1600" loading="lazy" alt="Aadithya and Amulya standing on the beach"></button>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox">
+  <button class="lb-close" id="lb-close">✕</button>
+  <button class="lb-nav lb-prev" id="lb-prev">‹</button>
+  <img id="lb-img" src="" alt="">
+  <button class="lb-nav lb-next" id="lb-next">›</button>
+</div>
+
+<!-- ===================== VENUE ===================== -->
+<section id="venue">
+  <div class="wrap" data-reveal>
+    <svg class="pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 22s7-7.58 7-13a7 7 0 10-14 0c0 5.42 7 13 7 13z"/><circle cx="12" cy="9" r="2.4"/></svg>
+    <p class="eyebrow">Venue</p>
+    <h2>The Celebration</h2>
+    <p class="addr" style="font-family:var(--special);font-style:italic;font-size:1.5rem;color:var(--green)">The White House</p>
+    <p class="vhotel">The Capital Hotel</p>
+    <p class="addr">No. 3, Rajbhavan Road,<br>Opp. General Post Office (GPO),<br>Bangalore – 560001.</p>
+    <p class="addr">Saturday, 28 November 2026 · 10:30 AM</p>
+    <div class="btn-row">
+      <a class="pill-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Capital+Hotel%2C+3+Raj+Bhavan+Road%2C+Bengaluru+560001">View Location</a>
+      <a class="pill-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=The+Capital+Hotel%2C+3+Raj+Bhavan+Road%2C+Bengaluru+560001">Get Directions</a>
+    </div>
+    <div class="map-frame">
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=The+Capital+Hotel%2C+3+Raj+Bhavan+Road%2C+Bengaluru+560001&output=embed" title="Map of The Capital Hotel, Bengaluru"></iframe>
+    </div>
+  </div>
+</section>
+
+<section id="rsvp">
+  <div class="wrap rsvp-box" data-reveal>
+    <p class="eyebrow">RSVP</p>
+    <h2>Your Presence Means<br>the World to Us</h2>
+    <form class="rsvp-form" id="rsvp-form" novalidate>
+      <div class="field"><label for="r-name">Name</label><input id="r-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required></div>
+      <div class="field"><label for="r-guests">Number of Guests</label><input id="r-guests" name="guests" type="number" inputmode="numeric" min="1" max="10" placeholder="e.g. 2" required></div>
+      <div class="field"><label for="r-msg">Message</label><textarea id="r-msg" name="message" placeholder="A note for the couple (optional)"></textarea></div>
+      <div class="attend-row">
+        <button type="button" class="attend-btn" data-attend="Will Attend" aria-pressed="false">Will Attend</button>
+        <button type="button" class="attend-btn" data-attend="Unable to Attend" aria-pressed="false">Unable to Attend</button>
+      </div>
+      <div style="text-align:center; margin-top:34px;"><button type="submit" class="pill-btn on-dark">Send RSVP</button></div>
+    </form>
+    <div id="rsvp-status" role="status" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ===================== CLOSING ===================== -->
+<section id="closing">
+  <div class="wrap c-inner">
+    <div class="diya"><div class="flame"></div></div>
+    <p class="closing-line" style="margin-top:0">We look forward to celebrating<br>this special occasion with you</p>
+    <p class="final-names">Aadithya &amp; Amulya<small>and Families</small></p>
+  </div>
+</section>
+
+<footer class="site-foot">Engagement Ceremony · 28 November 2026 · The Capital Hotel, Bangalore</footer>
+
+<script>
+(function(){
+  /* ============ CONFIG ============
+     RSVP delivery — nothing is saved until one of these is set:
+       RSVP_WHATSAPP : country code + number, digits only (e.g. '91XXXXXXXXXX') -> opens a pre-filled WhatsApp message
+       RSVP_ENDPOINT : URL of a form backend (Formspree etc.) accepting a JSON POST                                  */
+  var RSVP_SHEET_URL = 'https://script.google.com/macros/s/AKfycbyAU343iU2S-YbAUZAniWHgby57ZZpioq_yy3Xv0SSo_n1ovbts7USQP2Der6An2K3A/exec';   // paste your Google Apps Script Web app URL (ends with /exec) — see apps-script/Code.gs
+  var RSVP_WHATSAPP = '';
+  var RSVP_ENDPOINT = '';
+  var EVENT_TIME = '2026-11-28T10:30:00+05:30';   // 10:30 AM Asia/Kolkata
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var opening = document.getElementById('opening');
+  var video = document.getElementById('op-video');
+  var hint = document.getElementById('op-hint');
+  var body = document.body;
+  var started = false, finished = false;
+  var bgm = document.getElementById('bgm');
+  var soundBtn = document.getElementById('sound-toggle');
+  var xIcon = document.getElementById('sound-x');
+  var musicPlaying = false;
+
+  function syncSound(){
+    soundBtn.setAttribute('aria-pressed', musicPlaying);
+    soundBtn.setAttribute('aria-label', musicPlaying ? 'Mute music' : 'Turn music on');
+    xIcon.style.display = musicPlaying ? 'none' : '';
+  }
+  function finishOpening(){
+    if(finished) return; finished = true;
+    try{ video.pause(); }catch(e){}
+    opening.classList.add('hide');
+    body.classList.remove('opening','lock');
+    body.classList.add('site-ready');
+    window.scrollTo(0,0);
+    setTimeout(function(){ opening.style.display='none'; }, 1500);
+  }
+  function startVideo(){
+    if(started || finished) return;
+    started = true;
+    hint.classList.add('gone');
+    var p = video.play();
+    if(p && p.catch){ p.catch(function(){ started = false; hint.classList.remove('gone'); }); }
+    // Tap is a user gesture, so music may start now; the speaker button mutes it.
+    bgm.play().then(function(){ musicPlaying = true; syncSound(); }).catch(function(){ musicPlaying = false; syncSound(); });
+  }
+  video.addEventListener('ended', function(){ setTimeout(finishOpening, 700); });
+  video.addEventListener('error', finishOpening);
+  document.getElementById('op-tap').addEventListener('click', startVideo);
+  hint.addEventListener('click', startVideo);
+  document.getElementById('skip-open').addEventListener('click', function(e){ e.stopPropagation(); finishOpening(); });
+  if(reduceMotion){ finishOpening(); }
+
+  /* reveal on scroll */
+  var revealObs = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); revealObs.unobserve(en.target); } });
+  }, {threshold:.2});
+  document.querySelectorAll('[data-reveal]').forEach(function(el){ revealObs.observe(el); });
+
+  /* hero parallax */
+  if(!reduceMotion){
+    var heroBg = document.getElementById('hero-bg');
+    window.addEventListener('scroll', function(){
+      var y = window.scrollY;
+      if(y < window.innerHeight*1.2){ heroBg.style.transform = 'scale(1.08) translateY(' + (y*0.12) + 'px)'; }
+    }, {passive:true});
+  }
+
+  /* countdown (absolute instant, so IST is correct for every viewer) */
+  var target = Date.parse(EVENT_TIME);
+  var cdBox = document.getElementById('countdown'), cdDone = document.getElementById('cd-done');
+  var cd = {d:document.getElementById('cd-d'), h:document.getElementById('cd-h'), m:document.getElementById('cd-m'), s:document.getElementById('cd-s')};
+  function pad(n){ return n < 10 ? '0'+n : ''+n; }
+  var cdTimer;
+  function tick(){
+    var diff = target - Date.now();
+    if(diff <= 0){
+      cdBox.classList.add('done');
+      cdDone.textContent = (-diff < 6*3600*1000) ? 'The celebration is here — thank you for your blessings.' : 'Thank you for celebrating with us.';
+      clearInterval(cdTimer); return;
+    }
+    var s = Math.floor(diff/1000);
+    cd.d.textContent = Math.floor(s/86400); cd.h.textContent = pad(Math.floor(s%86400/3600));
+    cd.m.textContent = pad(Math.floor(s%3600/60)); cd.s.textContent = pad(s%60);
+  }
+  tick(); cdTimer = setInterval(tick, 1000);
+
+  /* gallery lightbox */
+  var galItems = document.querySelectorAll('.gal-item');
+  var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lb-img');
+  var sources = Array.prototype.map.call(galItems, function(g){ return {src:g.getAttribute('data-full'), alt:g.querySelector('img').alt}; });
+  var lbIndex = 0;
+  function openLb(i){ lbIndex=(i+sources.length)%sources.length; lbImg.src=sources[lbIndex].src; lbImg.alt=sources[lbIndex].alt; lb.classList.add('open'); }
+  function closeLb(){ lb.classList.remove('open'); }
+  galItems.forEach(function(g,i){ g.addEventListener('click', function(){ openLb(i); }); });
+  document.getElementById('lb-close').addEventListener('click', closeLb);
+  document.getElementById('lb-prev').addEventListener('click', function(){ openLb(lbIndex-1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ openLb(lbIndex+1); });
+  lb.addEventListener('click', function(e){ if(e.target===lb) closeLb(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key==='Escape') closeLb(); if(e.key==='ArrowLeft') openLb(lbIndex-1); if(e.key==='ArrowRight') openLb(lbIndex+1);
+  });
+
+  /* RSVP — never reports success unless data was actually sent */
+  var attendBtns = document.querySelectorAll('.attend-btn'), attendance = '';
+  var statusEl = document.getElementById('rsvp-status'), form = document.getElementById('rsvp-form');
+  function setStatus(html, err){ statusEl.className = err ? 'err' : ''; statusEl.innerHTML = html; }
+  function esc(s){ return s.replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  attendBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      attendBtns.forEach(function(b){ b.classList.remove('selected'); b.setAttribute('aria-pressed','false'); });
+      btn.classList.add('selected'); btn.setAttribute('aria-pressed','true'); attendance = btn.getAttribute('data-attend');
+    });
+  });
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('r-name').value.trim();
+    var guests = document.getElementById('r-guests').value.trim();
+    var msg = document.getElementById('r-msg').value.trim();
+    if(!name){ setStatus('Please enter your name.', true); return; }
+    if(!attendance){ setStatus('Please choose whether you will attend.', true); return; }
+    if(!guests || +guests < 1){ setStatus('Please enter the number of guests.', true); return; }
+    var text = 'RSVP — Aadithya & Amulya Engagement (28 Nov 2026)\nName: '+name+'\nAttendance: '+attendance+'\nGuests: '+guests+(msg?'\nMessage: '+msg:'');
+    if(RSVP_SHEET_URL){
+      var sb = form.querySelector('button[type=submit]'); sb.disabled = true; setStatus('Sending…');
+      // text/plain keeps this a "simple" request, so Apps Script needs no CORS preflight
+      fetch(RSVP_SHEET_URL, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:JSON.stringify({name:name, attendance:attendance, guests:guests, message:msg})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ if(!j || j.result !== 'success') throw new Error('bad'); form.style.display='none'; setStatus('Thank you, '+esc(name)+'. Your response has been received with gratitude.'); })
+        .catch(function(){ sb.disabled = false; setStatus('We couldn’t save your RSVP just now. Please check your connection and try again.', true); });
+      return;
+    }
+    if(RSVP_ENDPOINT){
+      setStatus('Sending…');
+      fetch(RSVP_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body:JSON.stringify({name:name, attendance:attendance, guests:guests, message:msg})})
+        .then(function(r){ if(!r.ok) throw new Error('bad'); form.style.display='none'; setStatus('Thank you, '+esc(name)+'. Your response has been received with gratitude.'); })
+        .catch(function(){ setStatus('We couldn’t send your RSVP just now. Please check your connection and try again.', true); });
+      return;
+    }
+    if(RSVP_WHATSAPP){
+      window.open('https://wa.me/'+RSVP_WHATSAPP+'?text='+encodeURIComponent(text), '_blank', 'noopener');
+      setStatus('WhatsApp has opened with your RSVP. <strong>Please press Send there to complete it.</strong>');
+      return;
+    }
+    setStatus('Online RSVP isn’t connected yet, so your response has <strong>not</strong> been sent. Please copy it and share it with the family directly.<br><button type="button" class="pill-btn on-dark" id="rsvp-copy">Copy my response</button>', true);
+    document.getElementById('rsvp-copy').addEventListener('click', function(){
+      var b = this;
+      (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function(){ b.textContent='Copied'; }, function(){ b.textContent='Copy not available'; });
+    });
+  });
+
+  /* sound toggle */
+  soundBtn.addEventListener('click', function(){
+    if(musicPlaying){ bgm.pause(); musicPlaying = false; syncSound(); }
+    else { bgm.play().then(function(){ musicPlaying = true; syncSound(); }).catch(function(){}); }
+  });
+  syncSound();
+})();
+</script>
+</body>
+</html>
